@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		51FA45D620768D61005F317F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FA45D520768D61005F317F /* AppDelegate.swift */; };
 		51FA45D820768D61005F317F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FA45D720768D61005F317F /* ViewController.swift */; };
-		51FA45DB20768D61005F317F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FA45D920768D61005F317F /* Main.storyboard */; };
 		51FA45DD20768D62005F317F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FA45DC20768D62005F317F /* Assets.xcassets */; };
 		51FA45E020768D62005F317F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FA45DE20768D62005F317F /* LaunchScreen.storyboard */; };
+		51FA45E920768D9A005F317F /* RDCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FA45E720768D9A005F317F /* RDCell.swift */; };
+		51FA45EA20768D9A005F317F /* RDCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51FA45E820768D9A005F317F /* RDCell.xib */; };
+		51FA45EC20769066005F317F /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FA45EB20769066005F317F /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51FA45D220768D61005F317F /* CustomCellUsingXIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCellUsingXIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FA45D520768D61005F317F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51FA45D720768D61005F317F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51FA45DA20768D61005F317F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51FA45DC20768D62005F317F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51FA45DF20768D62005F317F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51FA45E120768D62005F317F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FA45E720768D9A005F317F /* RDCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDCell.swift; sourceTree = "<group>"; };
+		51FA45E820768D9A005F317F /* RDCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RDCell.xib; sourceTree = "<group>"; };
+		51FA45EB20769066005F317F /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				51FA45D520768D61005F317F /* AppDelegate.swift */,
 				51FA45D720768D61005F317F /* ViewController.swift */,
-				51FA45D920768D61005F317F /* Main.storyboard */,
+				51FA45E720768D9A005F317F /* RDCell.swift */,
+				51FA45EB20769066005F317F /* Animal.swift */,
+				51FA45E820768D9A005F317F /* RDCell.xib */,
 				51FA45DC20768D62005F317F /* Assets.xcassets */,
 				51FA45DE20768D62005F317F /* LaunchScreen.storyboard */,
 				51FA45E120768D62005F317F /* Info.plist */,
@@ -124,7 +130,7 @@
 			files = (
 				51FA45E020768D62005F317F /* LaunchScreen.storyboard in Resources */,
 				51FA45DD20768D62005F317F /* Assets.xcassets in Resources */,
-				51FA45DB20768D61005F317F /* Main.storyboard in Resources */,
+				51FA45EA20768D9A005F317F /* RDCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,20 +143,14 @@
 			files = (
 				51FA45D820768D61005F317F /* ViewController.swift in Sources */,
 				51FA45D620768D61005F317F /* AppDelegate.swift in Sources */,
+				51FA45EC20769066005F317F /* Animal.swift in Sources */,
+				51FA45E920768D9A005F317F /* RDCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51FA45D920768D61005F317F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51FA45DA20768D61005F317F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51FA45DE20768D62005F317F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
